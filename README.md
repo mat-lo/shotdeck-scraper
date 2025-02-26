@@ -27,9 +27,9 @@ Make sure you are in the repository folder, and in your terminal type:
 uv run main.py --username <your_username> --password <your_password> --query <your_query> --limit <image_limit>
 ```
 
---username: your ShotDeck username
---password: your ShotDeck password
---query: your search query, comma separated tags e.g. "brad pitt, hands" or "black and white, drink"
---limit: the maximum number of images to download, as some queries return a lot of images
+- username: your ShotDeck username
+- password: your ShotDeck password
+- query: your search query, comma separated tags e.g. "brad pitt, hands" or "black and white, drink"
+- limit: the maximum number of images to download, as some queries return a lot of images
 
 The images will be saved in the `downloaded_images` folder
