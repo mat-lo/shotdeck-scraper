@@ -24,7 +24,7 @@ uv sync
 Make sure you are in the repository folder, and in your terminal type:
 
 ```bash
-python main.py --username <your_username> --password <your_password> --query <your_query> --limit <image_limit>
+uv run main.py --username <your_username> --password <your_password> --query <your_query> --limit <image_limit>
 ```
 
 --username: your ShotDeck username
